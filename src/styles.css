@@ -12,6 +12,7 @@
   --white: #fdfcfa;
   --ink: #1a1a18;
   --ink-light: #6b6b65;
+
   --ink-faint: #c8c6be;
   --serif-en: "Cormorant Garamond", Georgia, serif;
   --serif-jp: "Noto Serif JP", serif;
@@ -74,7 +75,7 @@ body {
   font-family: var(--serif-en);
   font-size: 12px;
   letter-spacing: 0.1em;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   cursor: pointer;
   border: 0.5px solid var(--ink-faint);
   padding: 5px 14px;
@@ -135,7 +136,7 @@ body {
   font-size: 11px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   margin-bottom: 40px;
 }
 
@@ -317,7 +318,7 @@ body {
   font-family: var(--serif-en);
   font-size: 11px;
   letter-spacing: 0.18em;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   margin-bottom: 24px;
 }
 .shuu-card-en {
@@ -664,7 +665,7 @@ body {
 }
 .shuu-table td:first-child {
   width: 120px;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   letter-spacing: 0.1em;
   font-family: var(--serif-en);
   font-size: 11px;
@@ -685,11 +686,11 @@ body {
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   margin-bottom: 12px;
 }
 .shuu-license-num {
-  font-family: var(--serif-en);
+  font-family: var(--serif-jp);
   font-size: 18px;
   font-weight: 300;
   color: var(--ink);
@@ -719,7 +720,7 @@ body {
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   margin-bottom: 10px;
 }
 .shuu-access-item-val {
@@ -734,7 +735,7 @@ body {
   font-family: var(--serif-en);
   font-size: 12px;
   font-weight: 300;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   letter-spacing: 0.1em;
   margin-top: 4px;
 }
@@ -960,7 +961,7 @@ body {
   font-family: var(--serif-en);
   font-size: 11px;
   letter-spacing: 0.1em;
-  color: var(--ink-faint);
+  color: var(--ink-light);
 }
 
 /* Hamburger button — hidden on desktop */

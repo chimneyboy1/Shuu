@@ -37,10 +37,14 @@ export default function About() {
               <tr>
                 <td>Location</td>
                 <td>
-                  大阪府大阪市
+                  〒580-0034 大阪府松原市天美西１丁目９−１５− 2階
                   <br />
                   <span className="shuu-muted-en">Osaka, Japan</span>
                 </td>
+              </tr>
+              <tr>
+                <td>CEO</td>
+                <td>安栖宗健</td>
               </tr>
               <tr>
                 <td>Business</td>
@@ -58,7 +62,7 @@ export default function About() {
           </table>
           <div className="shuu-license">
             <p className="shuu-license-label">古物商許可証番号</p>
-            <p className="shuu-license-num">第 〇〇〇〇〇〇〇〇〇〇〇 号</p>
+            <p className="shuu-license-num">62224R085831</p>
             <p className="shuu-license-sub">大阪府公安委員会許可</p>
           </div>
         </div>
@@ -67,14 +71,14 @@ export default function About() {
           <div className="shuu-access-items">
             <div className="shuu-access-item">
               <p className="shuu-access-item-label">Address</p>
-              <p className="shuu-access-item-val">大阪府大阪市●●区●●●●</p>
+              <p className="shuu-access-item-val">
+                〒580-0034 大阪府松原市天美西１丁目９−１５− 2階
+              </p>
               <p className="shuu-access-item-en">Osaka, Japan</p>
             </div>
             <div className="shuu-access-item">
               <p className="shuu-access-item-label">Email</p>
-              <p className="shuu-access-item-val">
-                info@shuu-corporation.co.jp
-              </p>
+              <p className="shuu-access-item-val">info@theshuu.com</p>
             </div>
             <div className="shuu-access-item">
               <p className="shuu-access-item-label">Hours</p>
