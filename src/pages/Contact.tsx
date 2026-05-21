@@ -23,7 +23,6 @@ export default function Contact() {
           <div className="shuu-field">
             <div className="shuu-field-label">
               <span>お名前 / Name</span>
-              <span className="shuu-required">Required</span>
             </div>
             <input
               className="shuu-input"
@@ -33,8 +32,7 @@ export default function Contact() {
           </div>
           <div className="shuu-field">
             <div className="shuu-field-label">
-              <span>会社名 / Company</span>
-              <span className="shuu-required">Optional</span>
+              <span>会社名 / Company</span>{" "}
             </div>
             <input
               className="shuu-input"
@@ -45,7 +43,6 @@ export default function Contact() {
           <div className="shuu-field">
             <div className="shuu-field-label">
               <span>メールアドレス / Email</span>
-              <span className="shuu-required">Required</span>
             </div>
             <input
               className="shuu-input"
@@ -56,7 +53,6 @@ export default function Contact() {
           <div className="shuu-field">
             <div className="shuu-field-label">
               <span>お問い合わせ種別 / Inquiry Type</span>
-              <span className="shuu-required">Required</span>
             </div>
             <div className="shuu-select-wrap">
               <select className="shuu-select" defaultValue="">
@@ -72,7 +68,6 @@ export default function Contact() {
           <div className="shuu-field">
             <div className="shuu-field-label">
               <span>お問い合わせ内容 / Message</span>
-              <span className="shuu-required">Required</span>
             </div>
             <textarea
               className="shuu-textarea"
@@ -82,7 +77,7 @@ export default function Contact() {
             ></textarea>
           </div>
           <button className="shuu-submit" type="button">
-            Send Message — 送信する
+            送信する
           </button>
           <p className="shuu-form-note">
             送信後、3営業日以内にご返信いたします。
@@ -95,16 +90,14 @@ export default function Contact() {
           <div className="shuu-contact-items">
             <div className="shuu-contact-item">
               <span className="shuu-contact-item-label">Email</span>
-              <span className="shuu-contact-item-val">
-                info@shuu-corporation.co.jp
-              </span>
+              <span className="shuu-contact-item-val">info@theshuu.com</span>
             </div>
             <div className="shuu-contact-item">
               <span className="shuu-contact-item-label">Location</span>
               <span className="shuu-contact-item-val">
-                大阪府大阪市
+                〒580-0034
                 <br />
-                Osaka, Japan
+                大阪府松原市天美西１丁目９−１５− 2階
               </span>
             </div>
             <div className="shuu-contact-item">
@@ -117,11 +110,7 @@ export default function Contact() {
             </div>
             <div className="shuu-contact-item">
               <span className="shuu-contact-item-label">Response</span>
-              <span className="shuu-contact-item-val">
-                3営業日以内
-                <br />
-                Within 3 business days
-              </span>
+              <span className="shuu-contact-item-val">3営業日以内</span>
             </div>
           </div>
           <div className="shuu-lang-note">
