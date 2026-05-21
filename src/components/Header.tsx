@@ -28,7 +28,8 @@ export default function Header() {
         </li>
       </ul>
       <button className="shuu-nav-lang" type="button" onClick={toggleLang}>
-        {lang === "ja" ? "EN" : "JP"}
+        <span className={`shuu-nav-lang-item${lang === "ja" ? " active" : ""}`}>JP</span>
+        <span className={`shuu-nav-lang-item${lang === "en" ? " active" : ""}`}>EN</span>
       </button>
       <button
         className={`shuu-hamburger${open ? " active" : ""}`}

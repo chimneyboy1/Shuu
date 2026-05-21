@@ -72,19 +72,27 @@ body {
   padding-bottom: 2px;
 }
 .shuu-nav-lang {
-  font-family: var(--serif-en);
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  color: var(--ink-light);
-  cursor: pointer;
-  border: 0.5px solid var(--ink-faint);
-  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
   background: none;
-  transition: all 0.2s;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
-.shuu-nav-lang:hover {
-  color: var(--ink);
-  border-color: var(--ink);
+.shuu-nav-lang-item {
+  font-family: var(--serif-en);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  padding: 5px 11px;
+  color: var(--ink-faint);
+  border-radius: 2px;
+  transition: all 0.25s;
+  line-height: 1;
+}
+.shuu-nav-lang-item.active {
+  background: var(--ink);
+  color: var(--white);
 }
 
 .page {
@@ -863,7 +871,7 @@ body {
   font-family: var(--serif-jp);
   font-size: 11px;
   font-weight: 300;
-  color: var(--ink-faint);
+  color: var(--ink-light);
   margin-top: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
@@ -1060,9 +1068,9 @@ body {
     padding: 16px 24px;
     gap: 12px;
   }
-  .shuu-nav-lang {
-    font-size: 11px;
-    padding: 4px 10px;
+  .shuu-nav-lang-item {
+    padding: 4px 9px;
+    font-size: 10px;
   }
   .shuu-hamburger {
     display: flex;
