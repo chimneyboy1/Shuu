@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#fdfcfa"/>
+  <text
+    x="256"
+    y="400"
+    font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', 'MS Mincho', serif"
+    font-size="400"
+    font-weight="300"
+    fill="#1a1a18"
+    text-anchor="middle"
+  >宗</text>
+</svg>
