@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import { useLang } from "../context/LangContext";
+import { usePageTitle } from "../hooks/usePageTitle";
 
 const content = {
   ja: {
@@ -87,6 +88,7 @@ const content = {
 export default function About() {
   const { lang } = useLang();
   const t = content[lang];
+  usePageTitle(lang === "ja" ? "会社概要" : "About Us");
 
   return (
     <div className="page">

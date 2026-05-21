@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import { useLang } from "../context/LangContext";
+import { usePageTitle } from "../hooks/usePageTitle";
 
 const content = {
   ja: {
@@ -120,6 +121,7 @@ const content = {
 export default function Service() {
   const { lang } = useLang();
   const t = content[lang];
+  usePageTitle(lang === "ja" ? "事業内容" : "Services");
 
   return (
     <div className="page">

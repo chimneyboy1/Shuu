@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import { useLang } from "../context/LangContext";
+import { usePageTitle } from "../hooks/usePageTitle";
 
 const content = {
   ja: {
@@ -74,6 +75,7 @@ const content = {
 export default function Home() {
   const { lang } = useLang();
   const t = content[lang];
+  usePageTitle(lang === "ja" ? "宗株式会社" : "Shuu Corporation");
 
   return (
     <div className="page">

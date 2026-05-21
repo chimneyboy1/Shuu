@@ -835,6 +835,30 @@ body {
 .shuu-submit:hover {
   opacity: 0.75;
 }
+.shuu-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.shuu-form-success {
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: var(--serif-jp);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--ink-light);
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+.shuu-form-error {
+  font-family: var(--serif-jp);
+  font-size: 12px;
+  font-weight: 300;
+  color: #b04040;
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+}
 .shuu-form-note {
   font-family: var(--serif-jp);
   font-size: 11px;
@@ -1034,9 +1058,11 @@ body {
   /* Nav */
   .shuu-nav {
     padding: 16px 24px;
+    gap: 12px;
   }
   .shuu-nav-lang {
-    display: none;
+    font-size: 11px;
+    padding: 4px 10px;
   }
   .shuu-hamburger {
     display: flex;

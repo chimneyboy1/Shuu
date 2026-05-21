@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#f7f5f0"/>
+  <!-- Left white panel -->
+  <rect width="520" height="630" fill="#fdfcfa"/>
+  <!-- Dividers -->
+  <line x1="520" y1="0" x2="520" y2="630" stroke="#c8c6be" stroke-width="0.5"/>
+  <line x1="0" y1="0.25" x2="1200" y2="0.25" stroke="#c8c6be" stroke-width="0.5"/>
+  <line x1="0" y1="629.75" x2="1200" y2="629.75" stroke="#c8c6be" stroke-width="0.5"/>
+
+  <!-- Left: eyebrow -->
+  <text x="72" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#6b6b65" letter-spacing="5">EST. 2024 — OSAKA, JAPAN</text>
+
+  <!-- Left: company name EN -->
+  <text x="72" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="300" fill="#1a1a18" letter-spacing="1">Shuu</text>
+  <text x="72" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="300" fill="#1a1a18" letter-spacing="1">Corporation</text>
+
+  <!-- Left: separator line -->
+  <line x1="72" y1="386" x2="196" y2="386" stroke="#c8c6be" stroke-width="0.5"/>
+
+  <!-- Left: taglines -->
+  <text x="72" y="424" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6b6b65" letter-spacing="2">Digital Marketing</text>
+  <text x="72" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6b6b65" letter-spacing="2">Antique &amp; Collectibles</text>
+
+  <!-- Left: company name JP -->
+  <text x="72" y="534" font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', serif" font-size="14" fill="#6b6b65" letter-spacing="6">宗株式会社</text>
+
+  <!-- Right: 宗 kanji large -->
+  <text x="860" y="468" font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif JP', 'MS Mincho', serif" font-size="300" font-weight="300" fill="#1a1a18" text-anchor="middle">宗</text>
+</svg>
