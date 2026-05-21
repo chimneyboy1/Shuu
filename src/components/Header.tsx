@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
+import { useLang } from "../context/LangContext";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
+  const { lang, toggleLang } = useLang();
 
   useEffect(() => {
     setOpen(false);
@@ -25,8 +27,8 @@ export default function Header() {
           <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
-      <button className="shuu-nav-lang" type="button">
-        EN / JP
+      <button className="shuu-nav-lang" type="button" onClick={toggleLang}>
+        {lang === "ja" ? "EN" : "JP"}
       </button>
       <button
         className={`shuu-hamburger${open ? " active" : ""}`}
