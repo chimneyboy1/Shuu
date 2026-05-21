@@ -33,8 +33,8 @@ const content = {
         reverse: false,
       },
       {
-        num: "02 — Antique & Collectibles",
-        enTitle: ["Antique &", "Collectibles"],
+        num: "02 — Antiques & Collectibles",
+        enTitle: ["Antiques &", "Collectibles"],
         jp: "骨董・アンティーク越境取引",
         body: "日本国内で厳選した骨董・アンティーク品を、ヨーロッパの市場へ届けます。古物商免許のもと、確かな目利きと誠実な取引を大切にしています。",
         items: [
@@ -89,8 +89,8 @@ const content = {
         reverse: false,
       },
       {
-        num: "02 — Antique & Collectibles",
-        enTitle: ["Antique &", "Collectibles"],
+        num: "02 — Antiques & Collectibles",
+        enTitle: ["Antiques &", "Collectibles"],
         jp: "Cross-border Antique Trading",
         body: "We deliver carefully selected Japanese antiques and collectibles to European markets. Licensed as an antique dealer, we value careful assessment and honest, transparent trading.",
         items: [

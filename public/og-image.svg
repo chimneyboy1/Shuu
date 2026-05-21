@@ -9,7 +9,7 @@
   <line x1="0" y1="629.75" x2="1200" y2="629.75" stroke="#c8c6be" stroke-width="0.5"/>
 
   <!-- Left: eyebrow -->
-  <text x="72" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#6b6b65" letter-spacing="5">EST. 2024 — OSAKA, JAPAN</text>
+  <text x="72" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#6b6b65" letter-spacing="5">Cross-border antique trading</text>
 
   <!-- Left: company name EN -->
   <text x="72" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="300" fill="#1a1a18" letter-spacing="1">Shuu</text>
@@ -20,7 +20,7 @@
 
   <!-- Left: taglines -->
   <text x="72" y="424" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6b6b65" letter-spacing="2">Digital Marketing</text>
-  <text x="72" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6b6b65" letter-spacing="2">Antique &amp; Collectibles</text>
+  <text x="72" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6b6b65" letter-spacing="2">Antiques &amp; Collectibles</text>
 
   <!-- Left: company name JP -->
   <text x="72" y="534" font-family="'Hiragino Mincho ProN', 'Yu Mincho', 'MS Mincho', serif" font-size="14" fill="#6b6b65" letter-spacing="6">宗株式会社</text>

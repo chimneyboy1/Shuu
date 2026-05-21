@@ -5,8 +5,8 @@ import { usePageTitle } from "../hooks/usePageTitle";
 
 const content = {
   ja: {
-    eyebrow: "Est. 2024 — Osaka, Japan",
-    title: ["Bridging", "Japan &", "Europe."],
+    eyebrow: "Cross-border antique trading",
+    title: ["Chosen in Japan.", "Cherished abroad."],
     titleJp: "デジタルの力で、日本の価値をヨーロッパへ。",
     desc: "デジタルマーケティングと骨董・アンティークの越境取引を通じて、日本とヨーロッパを繋ぐ新しいビジネスを創出します。",
     cta: "View our services →",
@@ -26,7 +26,7 @@ const content = {
       },
       {
         num: "02",
-        en: ["Antique &", "Collectibles"],
+        en: ["Antiques &", "Collectibles"],
         jp: "骨董・アンティーク越境取引",
         desc: "日本国内で厳選した骨董・アンティーク品を、ヨーロッパの市場へ届けます。古物商免許のもと、確かな目利きと誠実な取引を大切にしています。",
         link: "詳しく見る →",
@@ -38,10 +38,10 @@ const content = {
       "自らも市場に立ち、デジタルで販路を開く。その実践から生まれた知見を、クライアントへの支援に活かしています。",
   },
   en: {
-    eyebrow: "Est. 2024 — Osaka, Japan",
-    title: ["Bridging", "Japan &", "Europe."],
+    eyebrow: "Cross-border antique trading",
+    title: ["Chosen in Japan.", "Cherished abroad."],
     titleJp: "Bringing Japan's value to Europe through digital.",
-    desc: "We create new cross-border business connecting Japan and Europe through digital marketing and antique & collectible trading.",
+    desc: "We create cross-border opportunities between Japan and Europe through digital marketing and the trade of antiques and collectibles.",
     cta: "View our services →",
     stats: [
       { num: "Curate", label: "Select & Assess" },
@@ -59,7 +59,7 @@ const content = {
       },
       {
         num: "02",
-        en: ["Antique &", "Collectibles"],
+        en: ["Antiques &", "Collectibles"],
         jp: "Cross-border Antique Trading",
         desc: "We deliver carefully selected Japanese antiques and collectibles to European markets. Licensed as an antique dealer, we value honest assessment and transparent trading.",
         link: "Learn more →",
@@ -111,7 +111,7 @@ export default function Home() {
       <div className="shuu-divider">
         <span>Digital Marketing</span>
         <hr />
-        <span>Antique &amp; Collectibles</span>
+        <span>Antiques &amp; Collectibles</span>
         <hr />
         <span>Japan × Europe</span>
       </div>

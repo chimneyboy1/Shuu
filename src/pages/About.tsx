@@ -11,13 +11,13 @@ const content = {
     profileLabel: "Company Profile",
     table: [
       { label: "Company", value: "宗株式会社", sub: "Shuu Corporation" },
-      { label: "Founded", value: "2024年" },
+      { label: "Founded", value: "2026年" },
       {
         label: "Location",
         value: "〒580-0034 大阪府松原市天美西１丁目９−１５− 2階",
         sub: "Osaka, Japan",
       },
-      { label: "CEO", value: "安栖宗健" },
+      { label: "代表取締役", value: "安栖宗健" },
       {
         label: "Business",
         value: "デジタルマーケティング支援\n骨董・アンティーク越境取引",
@@ -50,20 +50,21 @@ const content = {
     profileLabel: "Company Profile",
     table: [
       { label: "Company", value: "Shuu Corporation", sub: "宗株式会社" },
-      { label: "Founded", value: "2024" },
+      { label: "Founded", value: "2026" },
       {
         label: "Location",
         value: "1-9-15-2F Tamaminishi, Matsubara, Osaka 580-0034, Japan",
         sub: "Osaka, Japan",
       },
-      { label: "CEO", value: "Muneyoshi Yasugi" },
+      { label: "CEO", value: "Munetake Yasuzumi" },
       {
         label: "Business",
         value: "Digital Marketing Support\nCross-border Antique Trading",
       },
       {
         label: "License",
-        value: "Antique Dealer License (Osaka Prefectural Public Safety Commission)",
+        value:
+          "Antique Dealer License (Osaka Prefectural Public Safety Commission)",
       },
     ],
     licenseLabel: "Antique Dealer License No.",
@@ -143,9 +144,7 @@ export default function About() {
               <div className="shuu-access-item" key={item.label}>
                 <p className="shuu-access-item-label">{item.label}</p>
                 <p className="shuu-access-item-val">{item.value}</p>
-                {item.sub && (
-                  <p className="shuu-access-item-en">{item.sub}</p>
-                )}
+                {item.sub && <p className="shuu-access-item-en">{item.sub}</p>}
               </div>
             ))}
           </div>

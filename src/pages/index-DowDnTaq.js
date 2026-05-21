@@ -14950,7 +14950,7 @@ function Qn() {
             children: [
               (0, j.jsx)(`p`, {
                 className: `shuueyebrow`,
-                children: `Est. 2024 — Osaka, Japan`,
+                children: `Cross-border antique trading`,
               }),
               (0, j.jsxs)(`h1`, {
                 className: `shuutitle`,
@@ -15034,7 +15034,7 @@ function Qn() {
         children: [
           (0, j.jsx)(`span`, { children: `Digital Marketing` }),
           (0, j.jsx)(`hr`, {}),
-          (0, j.jsx)(`span`, { children: `Antique & Collectibles` }),
+          (0, j.jsx)(`span`, { children: `Antiques & Collectibles` }),
           (0, j.jsx)(`hr`, {}),
           (0, j.jsx)(`span`, { children: `Japan × Europe` }),
         ],
@@ -15085,7 +15085,7 @@ function Qn() {
                   (0, j.jsxs)(`h2`, {
                     className: `shuucard-en`,
                     children: [
-                      `Antique &`,
+                      `Antiques &`,
                       (0, j.jsx)(`br`, {}),
                       `Collectibles`,
                     ],
@@ -15303,11 +15303,11 @@ function $n() {
             children: [
               (0, j.jsx)(`p`, {
                 className: `shuuservice-num`,
-                children: `02 — Antique & Collectibles`,
+                children: `02 — Antiques & Collectibles`,
               }),
               (0, j.jsxs)(`h2`, {
                 className: `shuuservice-en`,
-                children: [`Antique &`, (0, j.jsx)(`br`, {}), `Collectibles`],
+                children: [`Antiques &`, (0, j.jsx)(`br`, {}), `Collectibles`],
               }),
               (0, j.jsx)(`p`, {
                 className: `shuuservice-jp`,
