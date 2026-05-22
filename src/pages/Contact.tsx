@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import { useLang } from "../context/LangContext";
 import { usePageTitle } from "../hooks/usePageTitle";
 
-const FORMSPREE_ID = "YOUR_FORM_ID"; // ← FormspreeのフォームIDに置き換える
+const FORMSPREE_ID = "xdajgvyr";
 
 const content = {
   ja: {
